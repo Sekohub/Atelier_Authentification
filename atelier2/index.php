@@ -1,6 +1,6 @@
 <?php
     $token = bin2hex(random_bytes(16));
-    setcookie('authToken', '$token', time() + 60, '', '', true, true);
+    setcookie('authToken', '$token', time() + 60, '', '', false, true);
 // Démarrer une session utilisateur qui sera en mesure de pouvoir gérer les Cookies
 session_start();
 
