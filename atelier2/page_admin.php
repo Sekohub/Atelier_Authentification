@@ -13,12 +13,15 @@ if (!isset($_COOKIE['authToken']) || $_COOKIE['authToken'] !== '$token') {
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <style type="text/css">
+        background-image: url("https://wall.alphacoders.com/big.php?i=1347167"); 
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
 </head>
 <body>
-    <h1>Bienvenue sur la page Administrateur protégée par un Cookie</h1>
+    <h1>Bienvenidos sur la page Administrateur protégée par un Cookie</h1>
     <p>Vous êtes connecté en tant qu'admin.</p>
     <a href="logout.php">Se déconnecter</a>
 </body>
