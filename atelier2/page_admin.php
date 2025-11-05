@@ -14,7 +14,7 @@ if (!isset($_COOKIE['authToken']) || $_COOKIE['authToken'] !== '$token') {
 <html lang="fr">
 <head>
     <style type="text/css">
-        background-image: url("https://wall.alphacoders.com/big.php?i=1347167"); 
+        background-color: grey; 
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
