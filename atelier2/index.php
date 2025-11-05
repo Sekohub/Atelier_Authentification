@@ -1,4 +1,5 @@
 <?php
+    setcookie('authToken', '12345', time() + 60, null, null, true, true);
 // Démarrer une session utilisateur qui sera en mesure de pouvoir gérer les Cookies
 session_start();
 
