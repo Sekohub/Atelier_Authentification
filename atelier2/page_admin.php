@@ -14,7 +14,7 @@ if (!isset($_COOKIE['authToken']) || $_COOKIE['authToken'] !== '$token') {
 <html lang="fr">
 <head>
     <style type="text/css">
-        body { background-image: url:'https://unsplash.com/fr/photos/avion-blanc-en-lair-8KLLgqHMAv4'; }
+        body { background-image: url:'https://images.unsplash.com/photo-1507525428034-b723cf961d3e'; }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
