@@ -1,7 +1,6 @@
 <?php
     $token = bin2hex(random_bytes(16));
     setcookie('authToken', '$token', time() + 60, '', '', true, true);
-    echo "Jeton généré : " . $token;
 // Démarrer une session utilisateur qui sera en mesure de pouvoir gérer les Cookies
 session_start();
 
