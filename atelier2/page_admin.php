@@ -14,7 +14,7 @@ if (!isset($_COOKIE['authToken']) || $_COOKIE['authToken'] !== '$token') {
 <html lang="fr">
 <head>
     <style type="text/css">
-        background-color: grey; 
+        body { background-color: grey; }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
